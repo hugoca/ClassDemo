@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/open_UI"
+       android:text="open_UI"
+       android:onClick="onClick"
+       android:layout_width="200dp"
+       android:layout_height="100dp"/>
+
+   <Button
+       android:id="@+id/open_Progress"
+       android:text="open_progress"
+       android:onClick="onClick"
+       android:layout_width="200dp"
+       android:layout_height="100dp"/>
+
+   <Button
+       android:id="@+id/open_seekBar"
+       android:text="open_seekBar"
+       android:onClick="onClick"
+       android:layout_width="200dp"
+       android:layout_height="100dp"/>
+
+   <Button
+       android:id="@+id/open_RatingBar"
+       android:text="open_RatingBar"
+       android:onClick="onClick"
+       android:layout_width="200dp"
+       android:layout_height="100dp"/>
+
+
+   <Button
+       android:id="@+id/open_list"
+       android:text="open_list"
+       android:onClick="onClick"
+       android:layout_width="200dp"
+       android:layout_height="100dp"/>
+
+</LinearLayout>
